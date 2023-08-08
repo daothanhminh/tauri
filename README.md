@@ -1,3 +1,5 @@
+just a fork of tauri for breezeos
+
 <img src=".github/splash.png" alt="Tauri" />
 
 [![status](https://img.shields.io/badge/status-stable-blue.svg)](https://github.com/tauri-apps/tauri/tree/dev)

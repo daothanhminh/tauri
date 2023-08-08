@@ -1,6 +1,5 @@
 [workspace]
 members = [
-  # core
   "core/tauri",
   "core/tauri-runtime",
   "core/tauri-runtime-wry",
@@ -9,13 +8,10 @@ members = [
   "core/tauri-build",
   "core/tauri-codegen",
   "core/tauri-config-schema",
-
-  # integration tests
   "core/tests/restart",
 ]
 
 exclude = [
-  # examples that can be compiled with the tauri CLI
   "examples/api/src-tauri",
   "examples/resources/src-tauri",
   "examples/sidecar/src-tauri",
@@ -25,11 +21,13 @@ exclude = [
 ]
 
 [workspace.package]
-authors = [ "Tauri Programme within The Commons Conservancy" ]
+name = "breezeos-tauri"
+version = "1.0.0"
+authors = ["Dao Thanh Minh <baodaigov@gmail.com>"]
 homepage = "https://tauri.app/"
-repository = "https://github.com/tauri-apps/tauri"
-categories = [ "gui", "web-programming" ]
-license = "Apache-2.0 OR MIT"
+repository = "https://github.com/daothanhminh/tauri"
+categories = ["gui", "web-programming"]
+license = "Unlicense"
 edition = "2021"
 rust-version = "1.65"
 

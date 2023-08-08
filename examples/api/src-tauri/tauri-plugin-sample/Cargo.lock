@@ -2850,7 +2850,7 @@ dependencies = [
 
 [[package]]
 name = "webkit2gtk-sys"
-version = "0.19.1"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d0ac7a95ddd3fdfcaf83d8e513b4b1ad101b95b413b6aa6662ed95f284fc3d5b"
 dependencies = [
