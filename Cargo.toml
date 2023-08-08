@@ -11,15 +11,6 @@ members = [
   "core/tests/restart",
 ]
 
-exclude = [
-  "examples/api/src-tauri",
-  "examples/resources/src-tauri",
-  "examples/sidecar/src-tauri",
-  "examples/web/core",
-  "examples/file-associations/src-tauri",
-  "examples/workspace",
-]
-
 [workspace.package]
 name = "breezeos-tauri"
 version = "1.0.0"
@@ -30,9 +21,6 @@ categories = ["gui", "web-programming"]
 license = "Unlicense"
 edition = "2021"
 rust-version = "1.65"
-
-[patch.crates-io]
-tauri = { git = "https://github.com/tauri-apps/tauri", branch = "dev" }
 
 # default to small, optimized workspace release binaries
 [profile.release]
