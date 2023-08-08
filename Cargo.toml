@@ -31,6 +31,9 @@ license = "Unlicense"
 edition = "2021"
 rust-version = "1.65"
 
+[patch.crates-io]
+tauri = { git = "https://github.com/tauri-apps/tauri", branch = "dev" }
+
 # default to small, optimized workspace release binaries
 [profile.release]
 panic = "abort"
